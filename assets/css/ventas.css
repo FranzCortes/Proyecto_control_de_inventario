@@ -1,0 +1,18 @@
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 5px;
+}
+table{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.head_table{
+    background-color: #ffcd70;
+}
+
+.subhead_table{
+    background-color: #ffe5b5;
+}

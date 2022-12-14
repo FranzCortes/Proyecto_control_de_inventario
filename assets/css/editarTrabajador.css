@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 0px 30px;
+}
+
+.formulario_tabla{
+    max-width: 90%;
+    height: 470px;
+    margin: auto;
+    padding: 0px 0px 270px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #ffcd70;
+    font-size: 20px;
+}
+
+.formulario_Izquierdo{
+    display: block;
+    position: absolute;
+    width: 50%;
+    padding-top: 30px;
+    float:left;
+    margin:auto;
+    margin-left:80px;
+}
+
+.formulario_Izquierdo label{
+    width: 500px;
+    display:block;
+}
+
+.formulario_Izquierdo input{
+    margin-top: 10px;
+    width: 60%;
+    display:block;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    background-color: #ffcd70;
+    font-size: 19px;
+}
+
+.formulario_Izquierdo select{
+    margin-top:10px;
+    width: 60%;
+    display:block;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    background-color: #ffcd70;
+}
+
+.formulario_derecho{
+    position: relative;
+    width: 45%;
+    padding-top: 30px;
+    float:right;
+    margin:auto;
+    margin-left:100px;
+}
+
+.formulario_derecho label{
+    width: 500px;
+    display:block;
+}
+
+.formulario_derecho input{
+    margin-top:10px;
+    width: 80%;
+    display:block;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    background-color: #ffcd70;
+    font-size: 19px;
+}
+
+.boton_registrar{
+    clear:both;
+    margin:40%
+}
+
+.boton_registrar button{
+    display:block;
+    background-color: #ffa600;
+    padding:11px 10px;
+    font-weight: bold;
+    border:solid 1px black;
+    border-radius:3px;
+    font-size: 20px;
+    margin:50px
+}
+
+.boton_registrar button:hover{
+    border:1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.boton_registrar a{
+    text-decoration: none;
+}
+
+
+.boton_registrar a{
+    text-decoration: none;
+    display:inline;
+    background-color: #ffa600;
+    margin: 10px;
+    padding:9.5px 29px;
+    font-weight: bold;
+    border:solid 1px black;
+    border-radius:3px;
+    font-size: 20px;
+    color:black;
+}
+
+.boton_registrar a:hover{
+    border:1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+}
