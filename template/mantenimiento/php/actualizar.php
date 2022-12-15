@@ -76,7 +76,7 @@
                         1-Administrador</br>
                         2-Supervisor</br>
                         3-Cajero</br>
-                        4-Bodego</br>
+                        4-Bodega</br>
                         5-Sistemas</br>
                     </lable>
                     <input type="number" name="rol_id" id="rol_id" required="true" placeholder="Ej: 1" value="<?php echo $monstrar['rol_id']?>"/></br>
